@@ -11,7 +11,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-dataset = pd.read_csv('/Users/Apple/Desktop/machinelearning/Machine Learning A-Z Template Folder/Part 3 - Classification/Section 14 - Logistic Regression/Social_Network_Ads.csv')
+dataset = pd.read_csv('Social_Network_Ads.csv')
 X = dataset.iloc[:, [2, 3]].values
 Y = dataset.iloc[:, 4].values
 
